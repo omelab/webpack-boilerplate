@@ -1,0 +1,49 @@
+{
+  "name": "html-boilerplate",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "author": "OmeLab (Abu Bakar Siddique)",
+  "bugs": {
+    "url": "https://github.com/Wangchimei/boilerplate-webpack-scss-babel/issues"
+  },
+  "scripts": {
+    "build": "npm run build:prod",
+    "build:dev": "webpack --config webpack/webpack.dev.js",
+    "build:prod": "webpack --config webpack/webpack.prod.js",
+    "serve": "webpack-dev-server --open --config webpack/webpack.dev.js",
+    "clear": "rm -rf dist/",
+    "clear:dev": "rm -rf dist/development",
+    "clear:prod": "rm -rf dist/production",
+    "clear:all": "rm -rf node_modules/ && npm run clear:dist",
+    "set:bs:css": "npm install --save-dev bootstrap",
+    "set:bs:all": "npm install --save-dev bootstrap jquery popper.js",
+    "bs:clear": "npm uninstall --save-dev bootstrap jquery popper.js"
+  },
+  "keywords": [
+    "boilerplate",
+    "scss",
+    "webpack",
+    "babel",
+    "html"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "node-sass": "^7.0.1",
+    "path": "^0.12.7",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
