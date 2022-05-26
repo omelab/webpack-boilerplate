@@ -19,18 +19,19 @@ A boilerplate to start up your web development faster and easier. :rocket:
 
 ## List of Packages and Modules
 
-- Webpack v4.42.0
-- Webpack Dev Server v3.10.3
-- Babel(Core) v7.8.7
-- Babel Loader v8.0.6
-- HTML Loader v0.5.5
-- CSS Loader v3.4.2
-- Sass Loader v8.0.2
-- Style Loader v1.1.3
-- File Loader v5.1.0
+- Webpack v5.72.1
+- Webpack Dev Server v4.9.0
+- Babel(Core) v7.18.2
+- Babel Loader v8.2.5
+- HTML Loader v3.1.0
+- CSS Loader v6.7.1
+- Sass Loader v13.0.0
+- Style Loader v3.3.1
+- File Loader v6.2.0
 - HTML Webpack Plugin v3.2.0
-- Mini CSS Extract Plugin v0.9.0
-- Clean Webpack Plugin v3.0.0
+- Mini CSS Extract Plugin v2.6.0
+- Clean Webpack Plugin v5.5.0
+- Node sass v7.0.1
 
 ## File Structures
 
