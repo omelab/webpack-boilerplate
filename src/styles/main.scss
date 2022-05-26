@@ -1,16 +1,17 @@
 @import 'partials/reset';
 @import 'partials/variables';
 @import 'partials/mixins';
+@import 'modules/header';
 
 body {
-    @include content-center;
+    // @include content-center;
     height: 100vh;
     color: #333;
     background-color: $theme-color;
     font-family: sans-serif;
-    div {
-      text-align: center;
-    }
+    padding: $nopad;
+    margin:$nopad;
+ 
     small {
       display: block;
       margin-bottom: 2em;

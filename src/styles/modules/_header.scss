@@ -1,0 +1,15 @@
+.header{
+    width: $fullwidth;
+    padding: $padd-10;
+    background-color : $header-light;
+    &.dark{
+        background-color : $header-dark;
+        color: $white;
+    } 
+
+    .dark{
+        background-color : $header-light;
+        color:#f00;
+    } 
+
+}

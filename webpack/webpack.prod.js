@@ -9,11 +9,12 @@ module.exports = merge(common, {
   mode: 'production',
   output: {
     path: path.resolve('dist/production'),
-    filename: '[name].[contentHash].bundle.js',
+    filename: '[name].[contenthash].bundle.js',
+    clean: true
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: '[name].[contentHash].css',
+      filename: "[name].[contenthash].css",
     }),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
